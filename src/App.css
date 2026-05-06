@@ -260,7 +260,6 @@ body {
   display: block;
 }
 
-/* UPDATED CHANGING DATE/TIME FONT */
 .live-date {
   text-align: center;
   margin: 18px 0 24px;
@@ -349,7 +348,6 @@ body {
   display: block;
 }
 
-/* UPDATED CHANGING TIMER FONT */
 .timer {
   height: 42px;
   background: #179fe5;
@@ -362,6 +360,10 @@ body {
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 2px;
+}
+
+.timer span {
+  white-space: nowrap;
 }
 
 .not-valid {

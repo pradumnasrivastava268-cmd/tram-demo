@@ -158,10 +158,10 @@ export default function App() {
           </div>
 
           <div className="timer">
-            <span>{timer.days} days</span>
-            <span>{timer.hrs} hrs</span>
-            <span>{timer.mins} mins</span>
-            <span>{timer.secs} secs</span>
+            <span>{timer.days}days</span>
+            <span>{timer.hrs}hrs</span>
+            <span>{timer.mins}mins</span>
+            <span>{timer.secs}secs</span>
           </div>
 
           <div className="not-valid"></div>
