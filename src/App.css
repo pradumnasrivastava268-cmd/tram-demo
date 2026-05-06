@@ -260,13 +260,14 @@ body {
   display: block;
 }
 
+/* UPDATED CHANGING DATE/TIME FONT */
 .live-date {
   text-align: center;
   margin: 18px 0 24px;
-  font-family: "Courier New", monospace;
+  font-family: "OCR-B", "OCR B Std", "OCR A Std", "OCR A Extended", monospace;
   font-size: 17px;
-  font-weight: 700;
-  letter-spacing: 1.3px;
+  font-weight: 600;
+  letter-spacing: 2px;
   color: #0b2c29;
 }
 
@@ -348,6 +349,7 @@ body {
   display: block;
 }
 
+/* UPDATED CHANGING TIMER FONT */
 .timer {
   height: 42px;
   background: #179fe5;
@@ -356,9 +358,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   text-align: center;
-  font-family: "Courier New", monospace;
+  font-family: "OCR-B", "OCR B Std", "OCR A Std", "OCR A Extended", monospace;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 .not-valid {
