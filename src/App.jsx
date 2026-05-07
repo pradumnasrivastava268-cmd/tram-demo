@@ -54,7 +54,12 @@ function getCountdown(targetDate) {
 }
 
 export default function App() {
-  const createdDate = useMemo(() => new Date(), []);
+  const createdDate = useMemo(() => {
+    const created = new Date();
+    created.setMinutes(created.getMinutes() - 30);
+    return created;
+  }, []);
+
   const expiryDate = useMemo(() => getExpiryDate(), []);
 
   const [now, setNow] = useState(new Date());
